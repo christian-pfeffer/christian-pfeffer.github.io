@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Christian Pfeffer">
+  <meta name="description" content="Dr.-Ing. Christian Pfeffer – Elektronische Bauelemente und Nanoanalytik">
+  <title>Christian Pfeffer</title>
+  <style>
+    body {
+      margin: 0;
+      background: #fff;
+      color: #1a1a1a;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    .page { max-width: 800px; margin: 0 auto; padding: 32px 20px 48px; }
+    a { color: #1772d0; text-decoration: none; }
+    a:hover, a:focus { color: #f09228; }
+    h1 { font-size: 32px; font-weight: 400; text-align: center; margin: 0 0 18px; }
+    h2 { font-size: 21px; font-weight: 500; margin: 36px 0 10px; }
+    .intro { display: flex; gap: 28px; align-items: center; }
+    .intro .text { flex: 1 1 63%; }
+    .intro .photo { flex: 0 0 34%; text-align: center; }
+    .intro .photo img {
+      width: 100%; max-width: 240px; aspect-ratio: 1; object-fit: cover;
+      border-radius: 50%; background: #eee;
+    }
+    .links { text-align: center; margin-top: 14px; }
+    .links a { margin: 0 2px; }
+    .nav { text-align: center; margin: 26px 0 0; font-size: 14px; }
+    .item { display: flex; gap: 20px; padding: 16px 0; }
+    .item .thumb { flex: 0 0 160px; }
+    .item .thumb img, .item .thumb .ph {
+      width: 160px; height: 110px; object-fit: cover; border-radius: 6px; background: #f2f2f2;
+    }
+    .item .ph { display: flex; align-items: center; justify-content: center; font-size: 34px; color: #888; }
+    .item .body { flex: 1; }
+    .title { font-weight: 600; }
+    .meta { color: #555; font-style: italic; }
+    .highlight { background: #ffffd0; }
+    ul.plain { list-style: none; padding: 0; margin: 0; }
+    ul.plain li { margin: 6px 0; }
+    .arrow { color: #888; }
+    .todo { background: #fff0e0; color: #8a4a00; padding: 0 3px; border-radius: 3px; }
+    footer { margin-top: 44px; font-size: 13px; color: #777; text-align: right; }
+    @media (max-width: 600px) {
+      .intro { flex-direction: column-reverse; }
+      .intro .photo img { max-width: 180px; }
+      .item { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="intro">
+    <div class="text">
+      <h1>Christian Pfeffer</h1>
+      <p>
+        Ich bin <span class="todo">[Position]</span> bei <span class="todo">[Institution]</span>.
+        Meine Arbeit liegt an der Schnittstelle von elektronischen Bauelementen und Nanoanalytik:
+        <span class="todo">[1–2 Sätze zu Ihren Forschungsthemen]</span>.
+      </p>
+      <p>
+        Promoviert (Dr.-Ing.) habe ich an der <span class="todo">[Universität]</span> bei
+        <span class="todo">[Betreuer/in]</span> zum Thema <span class="todo">[Thema]</span>.
+        Nebenbei baue ich Synthesizer.
+      </p>
+      <p class="links">
+        <a href="mailto:EMAIL">E-Mail</a> &nbsp;/&nbsp;
+        <a href="#">Google Scholar</a> &nbsp;/&nbsp;
+        <a href="#">ORCID</a> &nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/christian-pfeffer-b32b2a149/">LinkedIn (Lebenslauf)</a> &nbsp;/&nbsp;
+        <a href="https://github.com/christian-pfeffer">GitHub</a>
+      </p>
+    </div>
+    <div class="photo">
+      <img src="images/portrait.jpg" alt="Portrait Christian Pfeffer">
+    </div>
+  </div>
+
+  <p class="nav">
+    <a href="#vortrag">Vortrag</a> &nbsp;/&nbsp;
+    <a href="#forschung">Forschung</a> &nbsp;/&nbsp;
+    <a href="#publikationen">Publikationen</a> &nbsp;/&nbsp;
+    <a href="#werdegang">Werdegang</a> &nbsp;/&nbsp;
+    <a href="#lehre">Lehre</a> &nbsp;/&nbsp;
+    <a href="#projekte">Projekte</a>
+  </p>
+
+  <h2 id="vortrag">Vortrag: Der Feldeffekttransistor (FET)</h2>
+  <div class="item highlight">
+    <div class="thumb"><div class="ph">FET</div></div>
+    <div class="body">
+      <span class="title">Der Feldeffekttransistor (FET)</span><br>
+      <span class="meta">Seminaristischer Unterricht, 20 Minuten · <span class="todo">[Hochschule, Datum]</span></span><br>
+      Vom Kanal über die Kennlinie bis zur Messung im Labor: wie ein n-Kanal-MOSFET funktioniert
+      und wie man ihn vermisst. Die Folien laufen direkt im Browser.<br>
+      <a href="folien/f1-einstieg.html">Einstieg</a> &nbsp;/&nbsp;
+      <a href="folien/f4-mosfet-prototyp.html">Aufbau und Funktion</a> &nbsp;/&nbsp;
+      <a href="folien/f5-praxis.html">Praxis und Übung</a>
+      <p style="margin:8px 0 0;font-size:13px;color:#666">Weiterblättern mit den Pfeiltasten.</p>
+    </div>
+  </div>
+
+  <h2 id="forschung">Forschung</h2>
+  <p>
+    <span class="todo">[Kurzer Absatz zu Ihren Forschungsschwerpunkten, z.&nbsp;B. Bauelemente,
+    Charakterisierung, Analytik auf der Nanoskala.]</span>
+  </p>
+
+  <h2 id="publikationen">Ausgewählte Publikationen</h2>
+  <div class="item">
+    <div class="thumb"><div class="ph">&#9672;</div></div>
+    <div class="body">
+      <span class="title"><a href="#">[Titel der Publikation]</a></span><br>
+      [Koautor/in], <b>C. Pfeffer</b>, [Koautor/in]<br>
+      <span class="meta">[Journal], [Jahr]</span><br>
+      <a href="#">Paper</a> &nbsp;/&nbsp; <a href="#">DOI</a>
+    </div>
+  </div>
+  <div class="item">
+    <div class="thumb"><div class="ph">&#9672;</div></div>
+    <div class="body">
+      <span class="title"><a href="#">[Titel der Publikation]</a></span><br>
+      <b>C. Pfeffer</b>, [Koautor/in]<br>
+      <span class="meta">[Konferenz], [Jahr]</span><br>
+      <a href="#">Paper</a> &nbsp;/&nbsp; <a href="#">DOI</a>
+    </div>
+  </div>
+
+  <h2 id="werdegang">Werdegang</h2>
+  <ul class="plain">
+    <li><b>[seit 20XX]</b> <span class="arrow">⇾</span> [Position], [Institution]</li>
+    <li><b>[20XX–20XX]</b> <span class="arrow">⇾</span> Promotion (Dr.-Ing.), [Universität]</li>
+    <li><b>[20XX–20XX]</b> <span class="arrow">⇾</span> Studium [Fach], [Universität]</li>
+  </ul>
+
+  <h2 id="lehre">Lehre</h2>
+  <ul class="plain">
+    <li><b>[Semester]</b> <span class="arrow">⇾</span> [Lehrveranstaltung], [Rolle]</li>
+    <li><b>[Semester]</b> <span class="arrow">⇾</span> Fortgeschrittenen-Praktikum MOSFET, Betreuung</li>
+  </ul>
+
+  <h2 id="projekte">Projekte</h2>
+  <ul class="plain">
+    <li><span class="title">Synthesizer im Eigenbau</span> <span class="arrow">⇾</span> [ein Satz dazu, optional Link oder Video]</li>
+  </ul>
+
+  <footer>Zuletzt aktualisiert: Oktober 2026 · Layout nach <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a></footer>
+</div>
+</body>
+</html>
