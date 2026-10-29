@@ -25,7 +25,7 @@
     .intro .photo { flex: 0 0 34%; text-align: center; }
     .intro .photo img {
       width: 100%; max-width: 240px; aspect-ratio: 1; object-fit: cover;
-      border-radius: 50%; background: #eee;
+      border-radius: 50%; background: #eee; object-position: 50% 30%;
     }
     .links { text-align: center; margin-top: 14px; }
     .links a { margin: 0 2px; }
@@ -42,6 +42,8 @@
     .highlight { background: #ffffd0; }
     ul.plain { list-style: none; padding: 0; margin: 0; }
     ul.plain li { margin: 6px 0; }
+    ul.pubs { padding-left: 18px; margin: 0; }
+    ul.pubs li { margin: 0 0 14px; }
     .arrow { color: #888; }
     .todo { background: #fff0e0; color: #8a4a00; padding: 0 3px; border-radius: 3px; }
     footer { margin-top: 44px; font-size: 13px; color: #777; text-align: right; }
@@ -59,19 +61,22 @@
     <div class="text">
       <h1>Christian Pfeffer</h1>
       <p>
-        Ich bin <span class="todo">[Position]</span> bei <span class="todo">[Institution]</span>.
-        Meine Arbeit liegt an der Schnittstelle von elektronischen Bauelementen und Nanoanalytik:
-        <span class="todo">[1–2 Sätze zu Ihren Forschungsthemen]</span>.
+        Ich bin Physiker und entwickle Sensorsysteme auf Basis der Impedanzspektroskopie,
+        von gedruckten Ionensensoren bis zur thermischen Analyse dünner Schichten.
+        Zuletzt war ich Senior Development Engineer und Tech Lead bei
+        NanoTemper Technologies (mikrothermische und optische Messgeräte).
       </p>
       <p>
-        Promoviert (Dr.-Ing.) habe ich an der <span class="todo">[Universität]</span> bei
-        <span class="todo">[Betreuer/in]</span> zum Thema <span class="todo">[Thema]</span>.
+        Promoviert (Dr.-Ing.) habe ich am Lehrstuhl für Schaltkreisentwurf der TU München
+        über impedimetrische Sensoren, in Kooperation mit Texas Instruments und der Domatec GmbH.
+        Davor habe ich an der TUM Physik und Applied and Engineering Physics studiert
+        und am Caltech zu DNA-Nanotechnologie geforscht.
         Nebenbei baue ich Synthesizer.
       </p>
       <p class="links">
-        <a href="mailto:EMAIL">E-Mail</a> &nbsp;/&nbsp;
-        <a href="#">Google Scholar</a> &nbsp;/&nbsp;
-        <a href="#">ORCID</a> &nbsp;/&nbsp;
+        <a href="mailto:christian.pfeffer@tum.de">E-Mail</a> &nbsp;/&nbsp;
+        <a href="https://orcid.org/0000-0002-8583-0921">ORCID</a> &nbsp;/&nbsp;
+        <a href="https://www.researchgate.net/profile/Christian_Pfeffer2">ResearchGate</a> &nbsp;/&nbsp;
         <a href="https://www.linkedin.com/in/christian-pfeffer-b32b2a149/">LinkedIn (Lebenslauf)</a> &nbsp;/&nbsp;
         <a href="https://github.com/christian-pfeffer">GitHub</a>
       </p>
@@ -85,6 +90,7 @@
     <a href="#vortrag">Vortrag</a> &nbsp;/&nbsp;
     <a href="#forschung">Forschung</a> &nbsp;/&nbsp;
     <a href="#publikationen">Publikationen</a> &nbsp;/&nbsp;
+    <a href="#patente">Patente</a> &nbsp;/&nbsp;
     <a href="#werdegang">Werdegang</a> &nbsp;/&nbsp;
     <a href="#lehre">Lehre</a> &nbsp;/&nbsp;
     <a href="#projekte">Projekte</a>
@@ -95,7 +101,7 @@
     <div class="thumb"><a href="folien/vortrag.html"><div class="ph">FET</div></a></div>
     <div class="body">
       <span class="title">Der Feldeffekttransistor (FET)</span><br>
-      <span class="meta">Seminaristischer Unterricht, 20 Minuten · <span class="todo">[Hochschule, Datum]</span></span><br>
+      <span class="meta">Seminaristischer Unterricht, 20 Minuten</span><br>
       Vom Kanal über die Kennlinie bis zur Messung im Labor: wie ein n-Kanal-MOSFET funktioniert
       und wie man ihn vermisst. Die Folien laufen direkt im Browser.<br>
       <a href="folien/vortrag.html">Folien öffnen</a>
@@ -105,46 +111,70 @@
 
   <h2 id="forschung">Forschung</h2>
   <p>
-    <span class="todo">[Kurzer Absatz zu Ihren Forschungsschwerpunkten, z.&nbsp;B. Bauelemente,
-    Charakterisierung, Analytik auf der Nanoskala.]</span>
+    Eine komplexe Zahl pro Frequenz verrät viel über ein Material: Mit der Impedanzspektroskopie
+    messe ich Ionenkonzentrationen in Flüssigkeiten, zähle Bakterien über Elektrodenstrukturen und
+    charakterisiere dünne Schichten elektrisch und thermisch. Dazu gehören die Bauelemente
+    (ISFETs, gedruckte Membranen), die analoge Ausleseelektronik und die Modellierung.
   </p>
 
-  <h2 id="publikationen">Ausgewählte Publikationen</h2>
-  <div class="item">
-    <div class="thumb"><div class="ph">&#9672;</div></div>
-    <div class="body">
-      <span class="title"><a href="#">[Titel der Publikation]</a></span><br>
-      [Koautor/in], <b>C. Pfeffer</b>, [Koautor/in]<br>
-      <span class="meta">[Journal], [Jahr]</span><br>
-      <a href="#">Paper</a> &nbsp;/&nbsp; <a href="#">DOI</a>
-    </div>
-  </div>
-  <div class="item">
-    <div class="thumb"><div class="ph">&#9672;</div></div>
-    <div class="body">
-      <span class="title"><a href="#">[Titel der Publikation]</a></span><br>
-      <b>C. Pfeffer</b>, [Koautor/in]<br>
-      <span class="meta">[Konferenz], [Jahr]</span><br>
-      <a href="#">Paper</a> &nbsp;/&nbsp; <a href="#">DOI</a>
-    </div>
-  </div>
+  <h2 id="publikationen">Publikationen</h2>
+  <ul class="pubs">
+    <li>
+      <span class="title"><a href="https://doi.org/10.3390/s21041487">Towards Easy-to-Use Bacteria Sensing: Modeling and Simulation of a New Environmental Impedimetric Biosensor in Fluids</a></span><br>
+      <b>C. Pfeffer</b>, Y. Liang, H. Grothe, B. Wolf, R. Brederlow<br>
+      <span class="meta">Sensors 21, 1487, 2021</span>
+    </li>
+    <li>
+      <span class="title"><a href="https://doi.org/10.1109/LSENS.2021.3069107">A Cost-Effective, Impediometric Na⁺-Sensor in Fluids</a></span><br>
+      <b>C. Pfeffer</b>, S. Zips, E. Muellner, M. Hefele, F. Kreupl, B. Wolf, …, R. Brederlow<br>
+      <span class="meta">IEEE Sensors Letters 5(6), 1–4, 2021</span>
+    </li>
+    <li>
+      <span class="title">MCU-Supported Electrochemical Sensors for pH and pX</span><br>
+      <b>C. Pfeffer</b> et al.<br>
+      <span class="meta">CoC Industry Day, München, 2019</span>
+    </li>
+    <li>
+      <span class="title">Integrated Multipurpose Analog Front-End for Electrochemical ISFET Sensors</span><br>
+      M. Hefele et al.<br>
+      <span class="meta">IEEE NEWCAS Conference, München, 2019</span>
+    </li>
+    <li>
+      <span class="title">iPhos, a new technique for the CALIFA CsI(Tl) calorimeter</span><br>
+      M. Bendel et al.<br>
+      <span class="meta">Journal of Physics: Conference Series, 2015</span>
+    </li>
+    <li>
+      <span class="title">Progress report of the CALIFA/R³B calorimeter</span><br>
+      D. Cortina-Gil et al.<br>
+      <span class="meta">Buchbeitrag, 2014</span>
+    </li>
+  </ul>
+  <p style="font-size:14px">Vollständige Liste auf <a href="https://www.researchgate.net/profile/Christian_Pfeffer2">ResearchGate</a> und <a href="https://orcid.org/0000-0002-8583-0921">ORCID</a>.</p>
+
+  <h2 id="patente">Patente</h2>
+  <ul class="plain">
+    <li><span class="title">Method of forming an ionic sensor and corresponding apparatus</span> <span class="arrow">⇾</span> Europäische Patentanmeldung Nr. 20 182 319.2</li>
+  </ul>
 
   <h2 id="werdegang">Werdegang</h2>
   <ul class="plain">
-    <li><b>[seit 20XX]</b> <span class="arrow">⇾</span> [Position], [Institution]</li>
-    <li><b>[20XX–20XX]</b> <span class="arrow">⇾</span> Promotion (Dr.-Ing.), [Universität]</li>
-    <li><b>[20XX–20XX]</b> <span class="arrow">⇾</span> Studium [Fach], [Universität]</li>
+    <li><b>2023–2026</b> <span class="arrow">⇾</span> NanoTemper Technologies, Senior Development Engineer und Tech Lead (mikrothermische und optische Messgeräte)</li>
+    <li><b>2017–2022</b> <span class="arrow">⇾</span> Promotion (Dr.-Ing.), Lehrstuhl für Schaltkreisentwurf, TU München; impedimetrische Sensoren, mit Texas Instruments und Domatec GmbH</li>
+    <li><b>2015–2016</b> <span class="arrow">⇾</span> Caltech, Masterarbeit: DNA-Nanotechnologie, AFM, Elektronenstrahllithografie auf Si/SiO₂</li>
+    <li><b>2010–2017</b> <span class="arrow">⇾</span> TU München, B.Sc. Physik und M.Sc. Applied and Engineering Physics</li>
   </ul>
 
-  <h2 id="lehre">Lehre</h2>
+  <h2 id="lehre">Lehre und Betreuung</h2>
   <ul class="plain">
-    <li><b>[Semester]</b> <span class="arrow">⇾</span> [Lehrveranstaltung], [Rolle]</li>
-    <li><b>[Semester]</b> <span class="arrow">⇾</span> Fortgeschrittenen-Praktikum MOSFET, Betreuung</li>
+    <li><b>2020</b> <span class="arrow">⇾</span> Masterarbeit E.-M. Korek, Fraunhofer EMFT: elektrochemischer Mikrosensor für Biomarker im Schweiß</li>
+    <li><b>2019</b> <span class="arrow">⇾</span> Bachelorarbeit E. Mahmutovic, Texas Instruments: CMOS-integrierte 3D-ISFETs mit erweitertem Metall-Gate</li>
+    <li><b>2018</b> <span class="arrow">⇾</span> Praktikum N. Fauth, Texas Instruments: Demo- und Ausleseschaltung für einen elektrochemischen Sensor</li>
   </ul>
 
   <h2 id="projekte">Projekte</h2>
   <ul class="plain">
-    <li><span class="title">Synthesizer im Eigenbau</span> <span class="arrow">⇾</span> [ein Satz dazu, optional Link oder Video]</li>
+    <li><span class="title">Synthesizer im Eigenbau</span></li>
   </ul>
 
   <footer>Zuletzt aktualisiert: Oktober 2026 · Layout nach <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a></footer>
